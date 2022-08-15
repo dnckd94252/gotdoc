@@ -5,7 +5,7 @@
     "heroku-prebuild": "npm install",
     "dev": "next dev",
     "build": "next build",
-    "start": "cd server && npm install forever && forever server.js",
+    "start": "next start",
     "next": "next start",
     "lint": "next lint"
   },
