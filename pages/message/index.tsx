@@ -9,7 +9,7 @@ import { getList, getComment } from "../../fnc/chat";
 
 const Message = () => {
   const userList = useSelector((state: any) => state.usersList);
-  const url = "http://localhost:8080";
+  const url = "https://gotdoc-server.herokuapp.com";
   const [follow, setFollow] = useState();
   const [active, setActive] = useState(null);
   const [activeUser, setActiveUser] = useState(null);

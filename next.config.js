@@ -14,7 +14,7 @@ module.exports = (phase, { defaultConfig }) => {
     return [
       {
         source: "/api/:path*",
-        destination: `http://localhost:${process.env.PORT || 3000}/api/:path*`,
+        destination: `https://gotdoc-server.herokuapp.com/api/:path*`,
       },
     ];
   };
