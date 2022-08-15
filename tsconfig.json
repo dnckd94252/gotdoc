@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "rootDir": ".",	//루트 폴
+    "target": "ESNext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./build",
+    "sourceMap": false,
+    "esModuleInterop": true,
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "styles/IntroduceStyle.jsx","./server/**/*.ts", "fnc/login.js", "pages/login.tsx", "pages/info/[id].tsx", "server/Controller/ChatController.js", "server/Controller/DoctorController.js", "server/Controller/FollowController.js", "server/Controller/HospitalController.js", "server/Controller/ReservationController.js", "server/Controller/ReviewController.js", "server/Controller/UserController.js", "server/fnc/base64.js", "server/import/mysql.js", "server/Route.js", "server/server.js", "server/Socket.js", "fnc/register.js"],
+  "exclude": ["node_modules"]
+}
+
+
